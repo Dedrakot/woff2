@@ -81,6 +81,9 @@ target_link_libraries(woff2dec woff2common "${BROTLIDEC_LIBRARIES}")
 add_executable(woff2_decompress src/woff2_decompress.cc)
 target_link_libraries(woff2_decompress woff2dec)
 
+add_executable(woff2_pme src/woff2_pme.cc)
+target_link_libraries(woff2_pme woff2dec)
+
 # WOFF2 Encoder
 add_library(woff2enc
             src/font.cc
