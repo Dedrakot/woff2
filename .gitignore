@@ -3,3 +3,7 @@
 /woff2_compress
 /woff2_decompress
 /woff2_info
+
+/.idea
+/cmake-build-debug
+/out
