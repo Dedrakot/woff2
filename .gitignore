@@ -7,3 +7,5 @@
 /.idea
 /cmake-build-debug
 /out
+/docker-build
+/brotli
