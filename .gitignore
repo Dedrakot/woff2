@@ -8,4 +8,5 @@
 /cmake-build-debug
 /out
 /docker-build
+/docker-build2
 /brotli
